@@ -70,7 +70,7 @@ def evalpnr(space):
   # nextpnr args
   args = ' '.join(map(str, sys.argv[1:]))
 
-  # supress quiet mode
+  # suppress quiet mode
   args = args.replace('-q','')
 
   # append optimisation parameters
