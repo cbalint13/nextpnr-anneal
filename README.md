@@ -21,7 +21,7 @@ Available annelars for nextpnr are in ```tunners```:
 
 ## The brute force experiment
 
-Given a configuration [space](https://github.com/cbalint13/nextpnr-anneal/blob/master/bench/marlann/nextpnr-explore.py#L13-L16) brute force exploration can be done:
+Given a configuration [space](https://github.com/cbalint13/nextpnr-anneal/blob/master/bench/marlann/nextpnr-explore.py#L60-L63) brute force exploration can be done:
   
   * ```0-explore-brute.sh``` will explore the space (will take some time)
   * ```1-parse-results.sh``` will aggregate log results into a JSON file
