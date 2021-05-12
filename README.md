@@ -6,10 +6,10 @@
 ## NextPNR hyperparam optimization
 
 Running the tunner is simple, just prepend one:
-
 ![MANGO](https://github.com/cbalint13/nextpnr-anneal/raw/master/images/tunning-pnr.gif)
 
-Available annelars for nextpnr are in ```tunners```
+
+Available annelars for nextpnr are in ```tunners```:
 
   | Tunner | MultiAlgo | Parallel |
   |-----------------------------------------------------------|---|---|
