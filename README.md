@@ -5,7 +5,11 @@
 
 ## NextPNR hyperparam optimization
 
-Hyperparameter annelars for nextpnr are available in ```tunners```:
+Running the tunner is simple, just prepend one:
+
+![MANGO](https://github.com/cbalint13/nextpnr-anneal/raw/master/images/tunning-pnr.gif)
+
+Available annelars for nextpnr are in ```tunners```
 
   | Tunner | MultiAlgo | Parallel |
   |-----------------------------------------------------------|---|---|
@@ -13,9 +17,6 @@ Hyperparameter annelars for nextpnr are available in ```tunners```:
   | [HyperActive](https://github.com/SimonBlanke/Hyperactive) | Y | N |
   | [Optuna](https://github.com/optuna/optuna)                | Y | N |
   | [HyperOpt](https://github.com/hyperopt/hyperopt)          | Y | N |
-
-Running the tunner is simple, just prepend one:
-![MANGO](https://github.com/cbalint13/nextpnr-anneal/raw/master/images/tunning-pnr.gif)
 
 
 ## The brute force experiment
