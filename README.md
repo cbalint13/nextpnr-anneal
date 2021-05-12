@@ -13,7 +13,7 @@ Available annelars for nextpnr are in ```tunners```:
 
   | Tunner | MultiAlgo | Parallel |
   |-----------------------------------------------------------|---|---|
-  | [Mongo](https://github.com/ARM-software/mango)            | N | Y |
+  | [Mango](https://github.com/ARM-software/mango)            | N | Y |
   | [HyperActive](https://github.com/SimonBlanke/Hyperactive) | Y | N |
   | [Optuna](https://github.com/optuna/optuna)                | Y | N |
   | [HyperOpt](https://github.com/hyperopt/hyperopt)          | Y | N |
