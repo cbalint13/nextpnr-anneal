@@ -15,7 +15,7 @@ Hyperparameter annelars for nextpnr are available in ```tunners```:
   | [HyperOpt](https://github.com/hyperopt/hyperopt)          | Y | N |
 
 Running the tunner is simple, just prepend one:
-![MANGO](https://github.com/cbalint13/nextpnr-anneal/raw/master/docs/images/tunning-pnr.gif)
+![MANGO](https://github.com/cbalint13/nextpnr-anneal/raw/master/images/tunning-pnr.gif)
 
 
 ## The brute force experiment
