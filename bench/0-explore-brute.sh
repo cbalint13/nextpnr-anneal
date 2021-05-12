@@ -5,7 +5,7 @@ do
 
   echo "Brute-force in $bench"
 
-  pushd bench/$bench
+  pushd $bench
   python nextpnr-explore.py
   popd
 

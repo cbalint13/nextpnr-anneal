@@ -5,7 +5,7 @@ do
 
   echo "Parse in $bench"
 
-  pushd bench/$bench
+  pushd $bench
   python ../../scripts/parse-results.py
   popd
 

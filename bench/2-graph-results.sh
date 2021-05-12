@@ -5,7 +5,7 @@ do
 
   echo "Graph in $bench"
 
-  pushd bench/$bench
+  pushd $bench
   python ../../scripts/graph-results.py
   popd
 
