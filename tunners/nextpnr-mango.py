@@ -76,14 +76,17 @@ def evalpnr(alpha, beta, critexp, tweight):
   # parse process logs
   while ( process.poll() is None ):
     output = process.stdout.readline().decode()
-    if 'Max frequency for clock' in output:
+    if 'Info: Max frequency for clock' in output:
       clkname = output.split()[5].replace('\'','').replace(':','')
       clk['%s' % clkname] = float(output.split()[6])
       continue
 
-  loss = clk[clkname]
+  loss = 0.0
+  for key in clk:
+    loss += clk[key]
   if (verbose):
-    print( "space [%s] -> %f(Mhz) loss=%f" % (space.values(), clk[clkname], loss) )
+    print("[alpha=%.3f beta=%.3f critexp=%i tweight=%i] -> %f(Mhz) loss=%f [%s]" %
+           (alpha, beta, critexp, tweight, clk[clkname], loss, clk) )
   return loss
 
 def main():
