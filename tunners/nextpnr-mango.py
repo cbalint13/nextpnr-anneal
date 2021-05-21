@@ -76,7 +76,7 @@ def evalpnr(alpha, beta, critexp, tweight):
   # parse process logs
   while ( process.poll() is None ):
     output = process.stdout.readline().decode()
-    if 'Info: Max frequency for clock' in output:
+    if 'Max frequency for clock' in output:
       clkname = output.split()[5].replace('\'','').replace(':','')
       clk['%s' % clkname] = float(output.split()[6])
       continue
